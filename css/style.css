@@ -1,0 +1,320 @@
+/* Estilos generales */
+
+p{
+    font-size: 18px;  
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+/* Estilos especificos */
+
+.nav-link{
+    color: #EA7E93;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-primary{
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #EA7E93;
+    border-radius: 30px;
+    color: #EA7E93;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-1{
+    background-image: url(../images/hero-section-home.jpg);
+    padding: 280px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding-right {
+    padding-right: 520px;
+}
+
+.btn-outline-light {
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-pink {
+    background-color: #DA8293;
+    padding: 310px 0px 0px 60px;
+}
+
+.padding-top350{
+    padding-top: 350px;
+}
+
+.padding-top250{
+    padding-top: 250px;
+}
+
+.padding-200{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.bg-2{
+    background-color: #FCEBB5;
+}
+
+.bg-2-1 {
+    background-image: url(../images/mezclamos-lo-mejor.jpg  );
+    padding: 280px 0px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorpink {
+    color: #EA7E93;
+}
+
+.bg-3{
+    background-color: #F9F9F9;
+}
+
+.bg-3-1 {
+    background-image: url(../images/tenemos-una-historia.jpg);
+    padding: 280px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rrss{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.padding-30{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFE3E9;
+}
+
+.padding-10 {
+    padding-top: 10px;
+}
+
+.copyr {
+    background-color: #EA7E93;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Estilos Smoothies */
+
+.hero {
+    background-color: #EA7E93;
+    padding: 30px;
+    text-align: center;
+}
+
+.padding-top-title {
+    padding-top: 100px;
+}
+
+.mango {
+    background-image: url(../images/mango.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+.sandia {
+    background-image: url(../images/sandia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+.banano {
+    background-image: url(../images/banano.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+.bosque {
+    background-image: url(../images/bosque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+/* Estilos Recetas */
+
+.card-container {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-color: white;
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.padding {
+    padding-top: 180px;
+}
+
+.mango-1 {
+    background-image: url(../images/mangomintbig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+}
+
+.sandia-1 {
+    background-image: url(../images/sandiafreshbig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+}
+
+.banano-1 {
+    background-image: url(../images/cocobongobig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+}
+
+.frutibosque-1 {
+    background-image: url(../images/frutibosque.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+}
+
+.bg-4{
+    background-image: url(../images/prefooter.jpg);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilos Quienes somos */
+
+.historia {
+    padding: 60px 0px;
+}
+
+/* Estilos Contacto */
+
+.form {
+    padding: 60px 250px;
+}
+.margin-title {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .btn-header{
+        display: none;
+    }
+
+    .bg-1 {
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    .bg-2 {
+        background-color: white;
+    }
+
+    .padding-right {
+        padding-right: 20px;
+    }
+
+    .padding-top350 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .padding-top250 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .padding-200 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .img {
+        text-align: center;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .padding-top-title {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .mango, .sandia, .banano, .bosque {
+        text-align: center;
+        padding: 120px 0px;
+    }
+
+    .mango-1, .sandia-1, .banano-1, .frutibosque-1 {
+        padding: 200px 0px;
+    }
+
+    .padding {
+        padding: 40px 0px;
+    }
+
+    .bg-4 {
+        padding: 50px 0px;
+
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding: 10px 20px;
+    }
+
+}
