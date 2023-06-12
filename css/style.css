@@ -236,7 +236,8 @@ footer{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
+
     .btn-header{
         display: none;
     }
@@ -318,3 +319,25 @@ footer{
     }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    
+    .btn-header{
+        display: none;
+    }
+
+    .bg-1 {
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .mango, .sandia, .banano, .bosque {
+        text-align: center;
+        padding: 220px 0px;
+    }
+
+    .mango-1, .sandia-1, .banano-1, .frutibosque-1 {
+        padding: 320px 0px;
+    }
+
+    }
