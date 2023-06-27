@@ -213,7 +213,6 @@ footer .padding-10 {
 
 /* Estilos Quienes somos */
 .finca .historia {
-  padding: 60px 0px;
   text-align: left;
 }
 
@@ -292,7 +291,7 @@ footer .padding-10 {
     padding: 10px 20px;
   }
   .historia {
-    margin-left: 5px;
+    padding-right: 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
