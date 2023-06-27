@@ -6,7 +6,8 @@ $colorSecundario:white;
 /* Estilos generales */
 
 p{
-    font-size: 18px;  
+    font-size: 18px; 
+    text-align: start; 
 }
 
 body{
@@ -204,6 +205,7 @@ footer{
 .finca {
     .historia {
         padding: 60px 0px;
+        text-align: left;
     }
 }
 
@@ -222,7 +224,7 @@ footer{
 @media screen and (max-width:768px) {
 
     p {
-    text-align: justify;
+    text-align: left;
     }
     
     .btn-header{
@@ -303,6 +305,11 @@ footer{
 
     .form {
         padding: 10px 20px;
+    }
+
+    .historia {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
 }

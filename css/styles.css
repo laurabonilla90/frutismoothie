@@ -1,6 +1,7 @@
 /* Estilos generales */
 p {
   font-size: 18px;
+  text-align: start;
 }
 
 body {
@@ -213,6 +214,7 @@ footer .padding-10 {
 /* Estilos Quienes somos */
 .finca .historia {
   padding: 60px 0px;
+  text-align: left;
 }
 
 /* Estilos Contacto */
@@ -225,7 +227,7 @@ footer .padding-10 {
 
 @media screen and (max-width: 768px) {
   p {
-    text-align: justify;
+    text-align: left;
   }
   .btn-header {
     display: none;
@@ -288,6 +290,10 @@ footer .padding-10 {
   }
   .form {
     padding: 10px 20px;
+  }
+  .historia {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
