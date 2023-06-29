@@ -32,6 +32,11 @@ header .nav-link {
   border-color: #EA7E93;
   color: #EA7E93;
 }
+.btn-primary:hover {
+  background-color: #EA7E93;
+  border-color: #EA7E93;
+  color: white;
+}
 
 .hero-section .bg-1 {
   background-image: url(../images/hero-section-home.jpg);
@@ -42,7 +47,7 @@ header .nav-link {
 }
 
 .padding-right {
-  padding-right: 520px;
+  padding-right: 620px;
 }
 
 .padding-top350 {
@@ -121,7 +126,7 @@ footer .padding-10 {
 }
 
 .padding-top-title {
-  padding-top: 100px;
+  padding-top: 170px;
 }
 
 .mango {

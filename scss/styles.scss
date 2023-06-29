@@ -1,5 +1,5 @@
 
-$colorPrinciapl: #EA7E93;
+$colorPrincipal: #EA7E93;
 $colorSecundario:white;
 
 
@@ -23,7 +23,7 @@ header{
     padding-bottom: 10px;
 
     .nav-link{
-        color: $colorPrinciapl;
+        color: $colorPrincipal;
         font-weight: 500;
         margin-top: 20px;
     }
@@ -39,8 +39,14 @@ header{
 .btn-primary{
     @extend .btn;
     background-color: transparent;
-    border-color: $colorPrinciapl;
-    color: $colorPrinciapl;
+    border-color: $colorPrincipal;
+    color: $colorPrincipal;
+
+    &:hover {
+        background-color: $colorPrincipal;
+        border-color: $colorPrincipal;
+        color: $colorSecundario;
+    }
 }
 
 .btn-outline-light {
@@ -63,7 +69,7 @@ header{
 }
 
 .padding-right {
-    padding-right: 520px;
+    padding-right: 620px;
 }
 
 .padding-top350{
@@ -96,7 +102,7 @@ header{
 }
 
 .colorpink {
-    color: $colorPrinciapl;
+    color: $colorPrincipal;
 }
 
 .bg-3{
@@ -130,7 +136,7 @@ footer{
 }
 
 .copyr {
-        background-color: $colorPrinciapl;
+        background-color: $colorPrincipal;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -140,13 +146,13 @@ footer{
 /*Smoothies*/
 
 .hero {
-    background-color: $colorPrinciapl;
+    background-color: $colorPrincipal;
     padding: 30px;
     text-align: center;
 }
 
 .padding-top-title {
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 @each $fruta in mango, sandia, banano, bosque{
@@ -218,7 +224,6 @@ footer{
         margin-bottom: 20px;
     }
 }
-
 
 @media screen and (max-width:768px) {
 
