@@ -73,7 +73,7 @@ header .nav-link {
   background-color: #FCEBB5;
 }
 .smoothie-2 .bg-2 .bg-2-1 {
-  background-image: url(../images/mezclamos-lo-mejor.jpg);
+  background-image: url(../images/banana.jpg);
   padding: 280px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,16 +242,20 @@ footer .padding-10 {
   font-size: 19px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   p {
     text-align: left;
   }
   .btn-header {
     display: none;
   }
+  .hero-section .bg-1 {
+    padding: 80px 0px;
+    background-position: left;
+  }
   .bg-1 {
     padding: 50px 0px;
-    text-align: center;
+    text-align: left;
   }
   .bg-2 {
     background-color: white;
@@ -262,20 +266,20 @@ footer .padding-10 {
   .padding-top350 {
     padding-top: 10px;
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
   }
   .padding-top250 {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: left;
   }
   .padding-200 {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: left;
   }
   .img {
-    text-align: center;
+    text-align: left;
   }
   .logo {
     width: 160px;
@@ -317,8 +321,36 @@ footer .padding-10 {
     display: none;
   }
   .bg-1 {
-    padding: 20px 0px;
+    padding: 50px 0px;
     text-align: left;
+  }
+  .hero-section .bg-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .padding-right {
+    padding-right: 0px;
+  }
+  .padding-top250 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding-200 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding-top-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding {
+    padding-top: 30px;
+  }
+  .bg-4 {
+    padding: 50px 0px;
+  }
+  .form {
+    padding: 30px 30px;
   }
   .mango, .sandia, .banano, .bosque {
     text-align: center;
