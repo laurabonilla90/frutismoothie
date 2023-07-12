@@ -177,6 +177,7 @@ footer{
         margin: 0 auto;
         margin-top: 85px;
         margin-bottom: 85px;
+        width: 15rem;
     }    
 }
 
@@ -223,6 +224,13 @@ footer{
     .margin-title {
         margin-bottom: 20px;
     }
+}
+
+/* Footer */
+
+.siguenos {
+    font-weight: 400;
+    font-size: 19px;
 }
 
 @media screen and (max-width:768px) {
