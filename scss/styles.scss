@@ -46,7 +46,13 @@ header{
         background-color: $colorPrincipal;
         border-color: $colorPrincipal;
         color: $colorSecundario;
-    }
+    }    
+}
+
+:not(.btn-check)+.btn-primary:active, .btn:first-child:active {
+    background-color: $colorPrincipal;
+    border-color: $colorPrincipal;
+    color: $colorSecundario;
 }
 
 .btn-outline-light {

@@ -38,6 +38,12 @@ header .nav-link {
   color: white;
 }
 
+:not(.btn-check) + .btn-primary:active, .btn:first-child:active, .btn-outline-light:first-child:active, .btn-primary:first-child:active {
+  background-color: #EA7E93;
+  border-color: #EA7E93;
+  color: white;
+}
+
 .hero-section .bg-1 {
   background-image: url(../images/hero-section-home.jpg);
   padding: 280px 0px;
